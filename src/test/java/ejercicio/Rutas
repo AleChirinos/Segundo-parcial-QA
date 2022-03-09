@@ -1,0 +1,25 @@
+Pagina inicio
+    Boton de login
+    //ul[@class='_3XsmI']/li/a[@href='/users/showlogin']
+
+Pagina login
+    TextBox Email
+    id('email')
+
+    TextBox Contrasena
+    id('password')
+
+
+    Input Iniciar Sesión
+    //button[text()='Inicia sesión']
+
+    //*[@id="login_form"]/button
+
+Pagina principal
+    click opciones
+    //button[contains(@class,'top_bar_btn settings_btn')]
+
+Opciones cuenta
+
+    Verificar creacion
+    id('id-0balrn-20')
