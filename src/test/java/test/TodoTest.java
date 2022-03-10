@@ -25,9 +25,8 @@ public class TodoTest {
         paginaLogin.emailTextBox.clearSetText("alecita2702@gmail.com");
         paginaLogin.passwordTextBox.clearSetText("Pass1234567Ale*");
         paginaLogin.botonIniciarSesion.click();
-        //paginaPrincipal.configurationButton.click();
 
-        //Assertions.assertTrue(opcionesCuenta.logoutButton.isControlDisplayed());
+        Assertions.assertTrue(paginaPrincipal.toolbar.isControlDisplayed());
 
         //Crear nuevo proyecto
         paginaPrincipal.projectButton.click();
